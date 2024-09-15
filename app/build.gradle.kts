@@ -38,6 +38,8 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation ("com.airbnb.android:lottie:3.0.1")
+    implementation(files("libs\\jtds-1.3.1.jar"))
+    implementation(files("libs\\mssql-jdbc-12.8.1.jre8.jar"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
